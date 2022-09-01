@@ -1,0 +1,86 @@
+:root {
+  --shadow-color: #152d35;
+}
+body {
+  background-color: #112031;
+  color: #d4ecdd;
+  font-family: "Azeret Mono", monospace;
+}
+.container {
+  width: 700px;
+  text-align: center;
+  margin: auto;
+}
+.inputField,
+#checkButton {
+  box-shadow: #152d35 0px 2px 5px -1px, #152d35 0px 1px 3px -1px;
+}
+.mainSection {
+  box-shadow: #d4ecdd 0px 2px 5px -1px, #d4ecdd 0px 1px 3px -1px;
+  background-color: #345b63;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content {
+  margin: 0.5rem;
+}
+#checkButton {
+  font-weight: 600;
+  font-size: 1.15rem;
+  margin-top: 1rem;
+  width: 120px;
+  height: 50px;
+  transition: 200ms;
+}
+#checkButton:hover {
+  cursor: pointer;
+  color: #d4ecdd;
+  background-color: #112031;
+}
+
+#checkButton,
+.inputField {
+  font-family: "Azeret Mono", monospace;
+  color: #112031;
+  background-color: #d4ecdd;
+  border-radius: 10px;
+  border: none;
+}
+.inputField {
+  height: 30px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.inputLabel {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.socialList {
+  list-style: none;
+}
+.logoLink {
+  display: inline-block;
+  margin: 0.5rem 0.75rem;
+}
+.logo {
+  color: #d4ecdd;
+  transition: 200ms;
+}
+.logo:hover {
+  fill: #112031;
+}
