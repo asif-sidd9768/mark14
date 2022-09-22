@@ -11,5 +11,4 @@ So, to check the status of portfolio, you have to enter your initial price of pu
   <img
   src="https://i.ibb.co/ckDRv7C/Screenshot-2022-09-22-at-3-44-51-PM.png"
   alt="The beautiful MDN logo.">
-  <figcaption>MDN Logo</figcaption>
 </figure>
