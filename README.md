@@ -5,3 +5,6 @@ So, to check the status of portfolio, you have to enter your initial price of pu
 
 ## Tech Stack
 > HTML, CSS, JavaScript.
+
+## Demo 
+![alt text](https://i.ibb.co/ckDRv7C/Screenshot-2022-09-22-at-3-44-51-PM.png)
